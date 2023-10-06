@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Humanist 777',sans-serif;
+}
+.ushtrime{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.box-holder{
+    width:25%;
+    background-color: white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    padding: 20px;
+    min-height: 400px;
+   
+}
+.box .logo img{
+    width: 50px;
+    margin-bottom: 50px;
+}
+.box input[type="button"]{
+    border-radius: 0px;
+    border-style:none;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    font-weight:bold;
+}
+
+main{
+    background-color: black;
+}
+.box p{
+    width: 250px;
+}
+.text-1{
+    color: #abb8c3;
+}
+.text-1 p{
+    margin:40px auto;
+}
+.text-2{
+    color: #59b9f5;
+}
+.text-2 p{
+    margin:40px auto;
+}
+.text-3{
+    color: #fd9144;;
+}
+.text-3 p{
+    margin:40px auto;
+}
+.text-4{
+    color: grey;
+}
+.text-4 p{
+    margin:40px auto;
+}
+.text-5{
+    color: grey;
+}
+.text-5 p{
+    margin:40px auto;
+}
+.text-6{
+    color: grey;
+}
+.text-6 p{
+    margin:40px auto;
+}
+.text-7{
+    color: #0693e3;
+}
+.text-7 p{
+    margin:40px auto;
+}
+.text-8{
+    color: grey;
+}
+.text-8 p{
+    margin:40px auto;
+}
+.check-1{
+    background-color: #abb8c3;
+    color:white;
+}
+.check-2{
+    background-color: #59b9f5;
+    color: white;
+}
+.check-3{
+    background-color:#fd9144;
+    color: white;
+}
+.check-4{
+    background-color: #69be9c;
+    color: white;
+}
+.check-5{
+    background-color: #cf2e2e;
+    color: white;
+}
+.check-6{
+    background-color: #94284c;
+    color: white;
+}
+.check-7{
+    background-color: #0693e3;
+    color: white;
+}
+.check-8{
+    background-color: #c0992f;
+    color: white;
+    
+}
